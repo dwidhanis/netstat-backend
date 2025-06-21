@@ -14,3 +14,23 @@ Sebuah proyek monitoring pemakaian WiFi berbasis Flask dan vnStat, dilengkapi da
 - Dukungan `.env` untuk konfigurasi fleksibel
 
 ---
+
+
+---
+
+## 🚀 Cara Menjalankan
+
+```bash
+# Aktifkan environment
+source venv/bin/activate
+
+# Jalankan backend Flask
+python app.py
+
+# Atau jalankan stack penuh
+bash start_all.sh
+
+📦 Setup Environment (sekali saja)
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
