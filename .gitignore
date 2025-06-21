@@ -1,0 +1,32 @@
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Flask instance folder (misal untuk config lokal, DB, dsb)
+instance/
+*.db
+
+# dotenv file
+.env
+.env.*
+
+# VSCode / PyCharm / IDE stuff
+.vscode/
+.idea/
+
+# Log files
+*.log
+logs/
+
+# System / OS files
+.DS_Store
+Thumbs.db
